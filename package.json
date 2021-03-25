@@ -1,18 +1,22 @@
 {
   "name": "todo-list-api",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Todo list API description",
   "author": "Musolov Yurii <thomasbricker87@gmail.com>",
   "private": true,
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ThomasBrickerBK/todo-list-api.git"
+    "url": "https://github.com/ThomasBrickerBK/todo-list-api"
   },
   "keywords": [
     "todo",
     "test-task"
   ],
+  "engines": {
+    "node": "14.x",
+    "yarn": ">= 1.22.0"
+  },
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
