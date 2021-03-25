@@ -7,10 +7,10 @@ export type TaskDocument = Task & Document;
 export class Task {
   @Prop({
     type: String,
-    required: [true, 'massage не должно быть пустым'],
+    required: [true, 'message не должно быть пустым'],
     trim: true,
   })
-  massage: string;
+  message: string;
 
   @Prop({
     type: Boolean,
